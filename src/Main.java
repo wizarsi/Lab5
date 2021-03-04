@@ -7,7 +7,7 @@ public class Main {
     public static void main(String[] args) throws IOException{
         CollectionManager collectionManager = new CollectionManager();
         Commander commander = new Commander(collectionManager);
-        //collectionManager.parse();
+        collectionManager.parse();
         commander.run();
     }
 }

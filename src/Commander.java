@@ -15,6 +15,7 @@ public class Commander {
      */
     public Commander(CollectionManager manager) {
         this.manager = manager;
+
     }
     List<String> info=new ArrayList<String>();
     {
