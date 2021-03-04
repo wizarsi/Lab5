@@ -200,6 +200,7 @@ public class Commander {
      * Запуск интерактивного режима в консоли
      */
     public void run(){
+        manager.parse();
         try {
             while (!userCommand.equals("exit")) {
                 userCommand = Utils.scanner().nextLine();
