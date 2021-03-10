@@ -21,6 +21,7 @@ public class CollectionManager {
     Long id;
     Date initDate;
     TreeMap<Integer,Worker> workerList;
+    Map map = new LinkedHashMap();
     String path=null;
     File file;
     DocumentBuilder builder = null;
