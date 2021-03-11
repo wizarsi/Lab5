@@ -5,7 +5,7 @@ import java.io.IOException;
  */
 public class Main {
     public static void main(String[] args) throws IOException{
-        CollectionManager collectionManager = new CollectionManager();
+        CollectionManager collectionManager = new CollectionManager(args[0]);
         Commander commander = new Commander(collectionManager);
         commander.run();
     }

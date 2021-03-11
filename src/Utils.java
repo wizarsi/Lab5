@@ -20,13 +20,13 @@ public class Utils {
      * Считывает путь к файлу для парсинга
      * @return путь
      */
+    /*
     public static String scannerForPath() {
         String[] finalUserCommand=null;
         boolean isCorrectPath=false;
         while (!isCorrectPath) {
             try {
-                Scanner scanner = new Scanner(System.in);
-                String scn = scanner.nextLine();
+                String scn = Utils.scanner().nextLine();
                 finalUserCommand = scn.trim().split(" +", 1);
                 if (finalUserCommand[0].length() == 0) throw new FileNotFoundException();
                 isCorrectPath = true;
@@ -38,7 +38,7 @@ public class Utils {
             }
         }
         return finalUserCommand[0];
-    }
+    }*/
 
     /**
      * Конвертирует Integer в Long

@@ -10,8 +10,8 @@ May 23, 2001 09:21 AM
 HEAD_OF_DEPARTMENT
 PROBATION
 save
-src/file.txt
+file.txt
 update 2 position
 HUMAN_RESOURCES
 show
-execute_script src/script1.txt
+execute_script script1.txt
